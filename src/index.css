@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Container {
+  background-color: rgb(141, 132, 132);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 70px auto;
+  height: 200%;
+  max-width: 1000px;
+  
+}
+
+.Box {
+  position: relative;
+  top: 5px;
+  padding: 5px;
+  background-color: white;
+  border: solid white 1px;
+}
+
+.Title{
+  position: relative;
+  bottom: 700px;
+  left: 650px;
+
+}
